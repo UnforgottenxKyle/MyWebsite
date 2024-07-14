@@ -20,10 +20,10 @@ const Education = () => {
                 <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 sm:ring-8 ring-gray-900 shrink-0">
                   <FaGraduationCap className="text-white" />
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-2xl pb-5 font-semibold dark:text-white">
+                <h3 className="text-2xl pb-5 font-semibold text-white">
                   Cavite State University - College
                 </h3>
                 <time className="block mb-5 italic text-sm font-normal leading-none text-[#FFC74D] ">
