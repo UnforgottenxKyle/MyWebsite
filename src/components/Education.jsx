@@ -17,7 +17,7 @@ const Education = () => {
               className="relative mb-6 sm:mb-0"
             >
               <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 sm:ring-8 ring-gray-900 shrink-0">
+                <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 bg-blue-900 ring-gray-900 sm:ring-8  shrink-0">
                   <FaGraduationCap className="text-white" />
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
@@ -74,7 +74,7 @@ const Education = () => {
               className="relative mb-6 sm:mb-0"
             >
               <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-900 sm:ring-8 ring-gray-900 rounded-full ring-0 shrink-0">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-900 ring-gray-900 sm:ring-8 rounded-full ring-0 shrink-0">
                   <FaGraduationCap className="text-white" />
                 </div>
                 <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
