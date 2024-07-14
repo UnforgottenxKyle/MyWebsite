@@ -46,13 +46,13 @@ const Education = () => {
               className="relative mb-6 sm:mb-0"
             >
               <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white  sm:ring-8 shrink-0">
                   <FaGraduationCap className="text-white" />
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-2xl pb-5 font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-2xl pb-5 font-semibold text-gray-900">
                   Philippine Christian University - SHS
                 </h3>
                 <time className="block mb-5 italic text-sm font-normal leading-none text-[#FFC74D] ">
@@ -74,13 +74,13 @@ const Education = () => {
               className="relative mb-6 sm:mb-0"
             >
               <div className="flex items-center">
-                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
                   <FaGraduationCap className="text-white" />
                 </div>
-                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
               </div>
               <div className="mt-3 sm:pe-8">
-                <h3 className="text-2xl pb-5 font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-2xl pb-5 font-semibold text-gray-900 ">
                   Sabang Elementary School
                 </h3>
                 <time className="block mb-5 italic text-sm font-normal leading-none text-[#FFC74D] ">
