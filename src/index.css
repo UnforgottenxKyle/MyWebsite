@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  font-family: Lexend;
+}
 
 .img-profile {
   animation: profile__animate 6s ease-in-out infinite 1s;
@@ -23,4 +26,34 @@
 }
 .nav-link:hover::after {
   transform: scale(1, 1);
+}
+.outer {
+  border-left: 3px solid white;
+}
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  color: #a7a9be;
+  border-radius: 8px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.title {
+  color: #ffc74d;
+  position: relative;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -37px;
+  border: 5px solid #ffc74d;
 }

@@ -2,10 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: ["Lexend"],
+    },
     screens: {
       sm: "0px",
-      lg: "800px",
+      lg: "1000px",
     },
   },
   plugins: [],
