@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex px-[40px] bg-[#0f0e17] h-[140px] justify-center items-center lg:px-[100px]">
-        <div className=" text-5xl lg:flex flex-1 text-white lg:text-5xl lg:text-start">
+        <div className=" text-4xl lg:flex flex-1 text-white lg:text-5xl lg:text-start">
           <h1 className="font-extrabold	hover:text-[#FFC74D] cursor-pointer">
             Kyle{" "}
             <span className="text-[#FFC74D] ml-[-16px] hover:text-white">

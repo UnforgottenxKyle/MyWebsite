@@ -2,17 +2,16 @@ import { motion } from "framer-motion";
 import "../index.css";
 import Resume from "../assets/Resume.pdf";
 
-
 const Hero = () => {
   return (
     <>
-      <section className="grid grid-row-[1fr,1fr] h-[calc(100vh-140px)] bg-[#0f0e17] lg:grid lg:grid-cols-2 lg:px-[100px] box-border sm:px-0">
+      <section className="grid grid-row-[1fr,1fr] h-[calc(100%-140px)] lg:h-[calc(100vh-140px)] bg-[#0f0e17] lg:grid lg:grid-cols-2 lg:px-[100px] box-border sm:px-0">
         <div className="flex text-white lg:flex flex-col justify-center lg:items-start  gap-8 sm:w-fit sm:items-center">
           <motion.h1
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0 }}
-            className="text-3xl lg:text-6xl font-semibold	text-start"
+            className="text-3xl mt-9 lg:text-6xl font-semibold lg:mt-0 text-center"
           >
             GRIFIN KYLE C. <span>ASA</span>
           </motion.h1>
@@ -46,7 +45,7 @@ const Hero = () => {
             </motion.button>
           </a>
         </div>
-        <div className="flex justify-center text-center items-center lg:items-center">
+        <div className="flex justify-center text-center items-center my-[75px] lg:items-center lg:pt-0">
           <motion.img
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
