@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 const Project = () => {
   return (
     <>
@@ -12,8 +15,16 @@ const Project = () => {
           <div className="lg:border-r-[4px] lg:border-white">
             <img src="AAPG.png" alt="capstone" width={375} />
           </div>
-          <div className="flex flex-col justify-center items-center text-white gap-y-8">
-            <div className="font-bold text-center">
+          <div className="flex flex-col justify-center text-white gap-y-4 lg:gap-y-8">
+            <Link
+              to="https://github.com/UnforgottenxKyle/Automated-Assessment-Question-Generator"
+              className=" mt-[-5px] lg:mt-[-20px] flex justify-end pr-[20px]"
+            >
+              <button className="">
+                <FaGithubSquare className="flex place-content-end text-3xl lg:text-4xl" />
+              </button>
+            </Link>
+            <div className="flex justify-center items-center font-bold text-center">
               AUTOMATED ASSESSMENT PAPER GENERATOR
             </div>
             <div className="font-light text-justify px-5">
@@ -22,7 +33,7 @@ const Project = () => {
               users to store questions at any time and randomly generates a
               question paper when needed.
             </div>
-            <div className="flex gap-x-3">
+            <div className="flex gap-x-3 justify-center ">
               <button className="px-[7px] p-1 lg:p-1 lg:px-5 bg-[#FFC74D] rounded-2xl">
                 PHP
               </button>
@@ -50,8 +61,16 @@ const Project = () => {
           <div className="lg:border-r-[4px] lg:border-white ">
             <img src="Brgr.png" alt="e-commers" width={375} />
           </div>
-          <div className="flex flex-col justify-center items-center text-white gap-y-8">
-            <div className="font-bold">BRGR MANIA</div>
+          <div className="flex flex-col justify-center  text-white gap-y-8">
+            <Link
+              to="https://github.com/UnforgottenxKyle/ITEC106_project"
+              className=" mt-[-5px] lg:mt-[-20px] flex justify-end pr-[20px]"
+            >
+              <button className="">
+                <FaGithubSquare className="flex place-content-end text-3xl lg:text-4xl" />
+              </button>
+            </Link>
+            <div className="font-bold text-center ">BRGR MANIA</div>
             <div className="text-justify px-5 font-light">
               The website allows customers to browse an extensive menu of
               mouth-watering burgers, add their choices to a virtual cart, and
@@ -59,7 +78,7 @@ const Project = () => {
               home. By integrating a user-friendly interface with robust
               e-commerce functionalities.
             </div>
-            <div className="flex gap-x-3">
+            <div className="flex gap-x-3 justify-center">
               <button className="px-[7px] p-1 lg:p-1 lg:px-5 bg-[#FFC74D] rounded-2xl">
                 HTML5
               </button>
@@ -87,15 +106,23 @@ const Project = () => {
           <div className="lg:border-r-[4px] lg:border-white">
             <img src="Gym.png" alt="StaticWEB" width={375} />
           </div>
-          <div className="flex flex-col justify-center items-center text-white gap-y-8">
-            <div className="font-bold">ECG GYM</div>
+          <div className="flex flex-col justify-center text-white gap-y-8">
+            <Link
+              to="https://github.com/UnforgottenxKyle/Gym-using-laravel"
+              className=" mt-[-5px] lg:mt-[-20px] flex justify-end pr-[20px]"
+            >
+              <button className="">
+                <FaGithubSquare className="flex place-content-end text-3xl lg:text-4xl" />
+              </button>
+            </Link>
+            <div className="font-bold text-center">ECG GYM</div>
             <div className="text-justify px-5 font-light">
               To support the newly established gym near my house, I created a
               website called ECG GYM. The website serves as a comprehensive
               digital platform for the gym, providing information about its
               facilities. I ensured that the site is user-friendly.
             </div>
-            <div className="flex gap-x-3">
+            <div className="flex gap-x-3 justify-center">
               <button className="px-[7px] p-1 lg:p-1 lg:px-5 bg-[#FFC74D] rounded-2xl">
                 LARAVEL
               </button>
@@ -120,14 +147,22 @@ const Project = () => {
           <div className="lg:border-r-[4px] lg:border-white">
             <img src="portfolio.png" alt="portfolio" width={375} />
           </div>
-          <div className="flex flex-col justify-center items-center text-white gap-y-8">
-            <div className="font-bold">PORTFOLIO</div>
+          <div className="flex flex-col justify-center text-white gap-y-8">
+            <Link
+              to="https://github.com/UnforgottenxKyle/MyWebsite"
+              className=" mt-[-5px] lg:mt-[-20px] flex justify-end pr-[20px]"
+            >
+              <button className="">
+                <FaGithubSquare className="flex place-content-end text-3xl lg:text-4xl" />
+              </button>
+            </Link>
+            <div className="font-bold text-center">PORTFOLIO</div>
             <div className="text-justify px-5 font-light">
               Personal Portfolio Website to showcase and highlights my skills,
               projects, accomplishments, and experience. Developing a responsive
               and interactive.
             </div>
-            <div className="flex gap-x-3">
+            <div className="flex gap-x-3 justify-center">
               <button className="px-[7px] p-1 lg:p-1 lg:px-5 bg-[#FFC74D] rounded-2xl">
                 REACTJS
               </button>

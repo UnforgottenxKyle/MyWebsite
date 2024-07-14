@@ -68,9 +68,14 @@ const Navbar = () => {
           <button onClick={OpenMenu}>{isOpen ? <X /> : <Menu />}</button>
         </div>
       </nav>
-      <motion.div className="fixed bg-[#2e2f3e] flex flex-col justify-center items-center w-full z-20 lg:hidden">
+      <motion.div className="burger-menu fixed flex flex-col justify-center items-center w-full z-20 lg:hidden">
         {isOpen && (
-          <motion.ul className="flex flex-col decoration-none text-black text-xl text-center gap-8 p-10 lg:hidden ">
+          <motion.ul
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            className="flex flex-col decoration-none text-white text-xl text-center gap-8 p-10  lg:hidden "
+          >
             <li>
               <NavLink
                 to="/"
@@ -96,7 +101,10 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-link flex flex-col items-center hover:text-[#FFC74D] after:content-[''] after:block after:h-[3px] after:w-[70px] after:bg-[#FFC74D] after:rounded-3xl after:transition ease-in duration-200">
+              <NavLink
+                to="/Project"
+                className="nav-link flex flex-col items-center hover:text-[#FFC74D] after:content-[''] after:block after:h-[3px] after:w-[70px] after:bg-[#FFC74D] after:rounded-3xl after:transition ease-in duration-200"
+              >
                 Project
               </NavLink>
             </li>
