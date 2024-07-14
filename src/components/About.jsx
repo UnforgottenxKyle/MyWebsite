@@ -27,7 +27,7 @@ const About = () => {
           transition={{ duration: 0.3, delay: 1 }}
           className="flex flex-col justify-start pt-14 lg:pl-6 text-[#a7a9be] gap-3"
         >
-          <motion.h1 className="text-5xl text-white font-bold">
+          <motion.h1 className="text-3xl text-center lg:text-5xl lg:text-start text-white font-bold ">
             ABOUT ME
           </motion.h1>
           <hr className="h-[4px] w-[100%]" />

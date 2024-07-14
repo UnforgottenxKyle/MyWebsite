@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <>
-      <section className="grid grid-rows-4 h-[calc(100%-140px)] lg:grid-rows-2 lg:grid-cols-2 lg:h-[calc(100vh-140px)] bg-[#0f0e17] lg:py-5 px-[20px] lg:px-[100px] gap-4 pb-9 ">
+      <section className="grid grid-rows-4 h-[calc(100%-140px)] lg:grid-rows-2 lg:grid-cols-2 lg:h-[calc(100vh-140px)] bg-[#0f0e17] lg:py-5  lg:px-[100px] gap-4 pb-9 ">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
