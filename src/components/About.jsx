@@ -47,7 +47,7 @@ const About = () => {
           >
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My
             name is Grifin Kyle Casiano Asa, and I am an aspiring Web Developer.
-            My passion for web development ignited in 2022 when I began building
+            My passion for web development ignited in 2021 when I began building
             websites from the ground up. Since then, I have been relentlessly
             advancing and broadening my expertise in this field. Driven by a
             deep desire to delve further into web development, I learned coding,
